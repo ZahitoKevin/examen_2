@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+
+</HEAD>
+<BODY>
+	 <H1> Insercion de datos </H1>
+	<FORM ACTION = 'SubidaDeArchivo.php' METHOD = 'POST' ENCTYPE = 'multipart/form-data'>
+	 	<LABEL> id_viajero: </LABEL>
+ 		<INPUT TYPE = "TEXT" NAME = "id_viajero" />
+ 		<BR>
+  		<LABEL> nombre_viajero : </LABEL>
+   		<INPUT TYPE = "TEXT" NAME = "nombre_viajero" />
+   		<BR>
+   		<LABEL> fecha_viajero: </LABEL>
+   		<INPUT TYPE = "TEXT" NAME = "fecha_viajero" />
+   		<BR>
+   		<LABEL> url_boleto_avion: </LABEL>
+		<INPUT TYPE = 'file' NAME = 'fileToUpload' id = 'fileToUpload'/>
+		<INPUT TYPE = 'submit' VALUE = 'Enviar' NAME = 'submit'/>
+
+	</FORM>
+</BODY>
+</HTML>
